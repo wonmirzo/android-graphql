@@ -1,0 +1,12 @@
+query UserById($id: uuid!) {
+    users_by_pk(id: $id) {
+        id
+        name
+        rocket
+        timestamp
+        twitter
+    }
+}
+
+
+#e6460535-6455-4876-a0bd-751b8b53d6bf
